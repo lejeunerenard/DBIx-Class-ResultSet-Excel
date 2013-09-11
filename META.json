@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "Excel export for DBIx::Class using Spreedsheet::WriteExcel",
    "author" : [
       "Sean Zellmer <sean@lejeunerenard.com>"
    ],
@@ -36,6 +36,9 @@
       },
       "runtime" : {
          "requires" : {
+            "DBIx::Class" : "0.08250",
+            "File::Temp" : "0",
+            "Spreadsheet::WriteExcel" : "2.39",
             "perl" : "5.008005"
          }
       },
@@ -46,6 +49,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/lejeunerenard/DBIx-Class-ResultSet-Excel/issues"
+      },
+      "homepage" : "https://github.com/lejeunerenard/DBIx-Class-ResultSet-Excel",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/lejeunerenard/DBIx-Class-ResultSet-Excel.git",
+         "web" : "https://github.com/lejeunerenard/DBIx-Class-ResultSet-Excel"
+      }
+   },
    "version" : "0.01"
 }
 

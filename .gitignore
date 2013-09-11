@@ -1,0 +1,7 @@
+/DBIx-Class-ResultSet-Excel-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove
